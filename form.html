@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Information Form</h1>
+    <table border="1">
+        <form action="save.php" method="get">
+            <!-- There are 2 methods GET and POST -->
+            <!-- return is also an argument -->
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" name="myname" id="e1" placeholder="Name" required></td>
+                <!-- value is also an argument that writes a default value in the field example value="Kush" -->
+                <!-- id is not compulsary but name is compulsary-->
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="" id="" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male<input type="radio" value="M" name="g" checked>Female<input type="radio" value="F" name="g"></td>
+                <!-- checked arguments makes 1 value checked when the form is loaded -->
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>English<input type="checkbox" value="En" name="l" checked>
+                    Hindi<input type="checkbox" value="Hn" name="l">
+                    Tamil<input type="checkbox" value="Tm" name="l">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"></td>
+                <td><input type="reset" value="clear"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="" id="" value="Save"></td>
+                <td><button>Save</button></td>
+            
+        </form>
+    </table>
+</body>
+</html>
+
+<!-- 
+    INPUT TAGS:
+
+    text
+    password
+
+    radio
+    checkbox
+
+    submit
+    button
+    reset
+-->
+<!--
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+-->
