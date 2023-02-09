@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="somecss.css"/> -->
+        <title>Registration Form Sample</title>
+    </head>
+    <!-- <body bgcolor="green"> -->
+    <body bgcolor="aqua">
+        <h2>ENTRY FORM</h2> 
+        <table>
+            <tr>
+                <td>Enter your Name:</td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td>Enter your Age:</td>
+                <td><input type="number" name="age" id="age" rows="5"></td>
+            </tr>
+            <tr>
+                <td>Enter your Address :</td>
+                <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Sex:</td>
+                <td>
+                    <input type="radio" value="F" name="g" checked>Female
+                    <br/>
+                    <input type="radio" value="M" name="g">Male
+                </td>
+            </tr>
+            <tr>
+                <td>Nationality:</td>
+                <td>
+                    <select name="state" id="">
+                        <option value="none" selected>(Please select a country)</option>
+                        <option value="uk">Uttarakhand</option>
+                        <option value="up">Uttar Pradesh</option>
+                        <option value="raj">Rajasthan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages Known:</td>
+                <td>
+                    <legend>(can select more than one)</legend>
+                    <input type="checkbox" value="C" name="ln" checked>C
+                    <br/>
+                    <input type="checkbox" value="C++" name="ln">C++
+                    <br/>
+                    <input type="checkbox" value="VB" name="ln">VB
+                    <br/>
+                    <input type="checkbox" value="JAVA" name="ln">JAVA
+                    <br/>
+                    <input type="checkbox" value="ASP" name="ln">ASP
+                    <br/>
+                    <input type="checkbox" value="OTHERS" name="ln">OTHERS
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your Password:</td>
+                <td><input type="password" name="age" id="age"></td>
+            </tr>
+            <td></td>
+            <td>
+            <input type="reset" value="Reset"><input type="submit" name="Submit" id="Submit">
+            </td>
+        </table>
+    </body>
+</html>

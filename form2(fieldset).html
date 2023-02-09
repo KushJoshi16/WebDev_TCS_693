@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        label{
+            color: green;
+        }
+        input[type="text"]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Information Form</h1>
+
+    <table border="1">
+        <form action="save.php" method="get">
+        <fieldset>
+            <legend>Student info</legend>
+            <label for="e1">Student Name</label>
+            <input type="text" name="myname" id="e1" placeholder="Name" required><br>
+            <label for="p1">Password</label>
+            <input type="password" name="" id="p1" placeholder="password">
+
+        </fieldset>
+        <fieldset>
+            <legend>Student info</legend>
+            Student email
+            <input type="text" name="email" id="se1" placeholder="" required><br>
+            Address
+            <input type="password" name="" id="sa1" placeholder="">
+
+        </fieldset>
+        </form>
+    </table>
+</body>
+</html>
+
+<!-- 
+    form TAGS:
+
+    fieldset
+    label
+    
+-->
+<!--
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+-->
