@@ -1,0 +1,19 @@
+DTD are of 2 types:
+
+internal
+
+external
+
+..................
+
+DTD is used to validate xml
+
+
+*pcdata
+*cdata
+
+Quantifiers used:
+ +
+ *
+ ?
+ |

@@ -1,0 +1,2 @@
+<!ELEMENT student (student_info)>
+<!ELEMENT student_info (name, email, mobile)>

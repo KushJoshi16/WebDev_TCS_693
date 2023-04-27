@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <title>Form</title>
+    <style>
+        td :hover{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Student Information Form</h1>
@@ -41,6 +46,17 @@
             
         </form>
     </table>
+    <script>
+        function rfunc(){
+            if(document.getElementById("myname1").value.length===0){
+                alert("Enter name");
+            }
+        }
+        const btn1 = document.getElementById("bt1");
+        console.log(btn1)
+        btn1.addEventListener('click',rfunc)
+        
+    </script>
 </body>
 </html>
 

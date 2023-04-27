@@ -1,0 +1,36 @@
+name{
+    color: red;
+    font-size: 20px;
+}
+student_info{
+    text-align: center;
+    display: block;
+}
+student{
+    color: green;
+}
+email{
+    background-color: pink;
+    color: blue;
+}
+name::before{
+    content: "NAME: ";
+}
+email::before{
+    content: "EMAIL: ";
+}
+mobile::before{
+    content: "MOBILE: ";
+}
+name::after{
+    content: "\a";
+    white-space: pre;
+}
+email::after{
+    content: "\a";
+    white-space: pre;
+}
+mobile::after{
+    content: "\a";
+    white-space: pre;
+}

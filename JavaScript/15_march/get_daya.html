@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function day_gen(){
+            // var days = 10
+            const input = document.getElementById("dob").value;
+            // var dateEntered = Date(input);
+            var dateEntered = input.getDate();
+            console.log(input)
+            console.log(dateEntered)
+
+            // document.getElementById("days").innerHTML='Days are'+dateEntered.getDay()
+        }
+    </script>
+</head>
+<body>
+        <input type="date" id="dob">
+        <button onclick="day_gen()">Get No. of days</button>
+        <p id="days"></p>
+    
+</body>
+</html>

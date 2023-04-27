@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS</title>
+    <style>
+        /* Class selector */
+        h1.geu{ /* type specific class selector */
+            color: red;
+        }
+
+        .gehu{
+            background-color: blue;
+        }
+
+
+        /* id selector */
+        #myname{
+            color: green;
+        }
+        #btn1{
+            background-color: green;
+        }
+        #btn2{
+            background-color: red;
+        }
+        /* first id is created then only style is written */
+
+        /* group specific element selector */
+        h2,h3,input{
+            color: yellow;
+            background-color: blueviolet;
+        }
+
+        div p{  /* all paragraphs inside div will be effected */
+            color: aqua;
+            font-size: 40px;
+        }
+
+        div>h1{
+            
+        }
+        div+h1{
+            
+        }
+        div~h1{
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <p class="geu">Graphic Era University Paragraph </p>
+    <h1 class="geu">This is heading h1</h1>
+
+    <div class="geu">
+        <p>Graphic Era University Paragraph </p>
+        <h1>This is heading h1</h1>
+    </div>
+
+    <div class="gehu">
+        <p>Graphic Era Hill University Paragraph </p>
+        <h1>This is heading h1</h1>
+    </div>
+    <form action="">
+        <input type="text" name="myname" id="myname">
+        <input type="button" id="btn1" value="Go">
+        <input type="button" id="btn2" value="Stop">
+    </form>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <div>
+        <p>Div Pa</p>
+    </div>
+</body>
+</html>

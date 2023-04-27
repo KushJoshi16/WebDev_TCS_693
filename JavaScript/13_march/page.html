@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function over(){
+            document.getElementById("p1").style.color="red";
+            document.getElementById("p1").style.fontSize="20px";
+        }
+        function out(){
+            document.getElementById("p1").style.color="green";
+            document.getElementById("p1").style.fontSize="10px";
+            document.getElementById("x").innerHTML='X'
+            document.getElementById("y").innerHTML='Y'
+        }
+        function move(){
+            var x= event.clientX
+            var y= event.clientY
+            document.getElementById("x").innerHTML=x
+            document.getElementById("y").innerHTML=y
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body onload="alert('Welcome')" ononline="alert('Now you are online.')" onoffline="alert('Now you are offline.')">
+    <p oncontextmenu="alert('right')" onclick="alert('left')">Right Click</p>
+    <div onmouseover="over()" onmouseout="out()" onmousemove="move()">
+        <p id="p1">mouse move</p>
+    </div>
+    <p id="x">X</p>
+    <p id="y">Y</p>
+</body>
+</html>

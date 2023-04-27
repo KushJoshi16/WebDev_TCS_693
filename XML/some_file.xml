@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="test.css" ?>
+<!DOCTYPE note SYSTEM "test.dtd">
+<student>
+    <student_info id="100">
+    <name>sfad</name>
+    <email>asdf</email>
+    <mobile>1234512</mobile>
+    </student_info>
+    <student_info id="200">
+    <name>sfad</name>
+    <email>asdf</email>
+    <mobile>1234512</mobile>
+    </student_info>
+    <student_info id="300">
+        <name>sfad</name>
+    <email>asdf</email>
+    <mobile>1234512</mobile>
+    </student_info>
+    <student_info id="400"><name>sfad</name>
+        <email>asdf</email>
+        <mobile>1234512</mobile>
+        </student_info>
+</student>
+<student>
+    <student_info id = "10">
+    </student_info>
+</student>
+    

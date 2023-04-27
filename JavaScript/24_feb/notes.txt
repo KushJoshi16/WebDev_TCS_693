@@ -1,0 +1,18 @@
+JavaScript is object based
+object based is different than object oriented
+
+JavaScript -> object + events + programming
+
+Objects in JS:
+    Window
+    Document
+        Body
+            form, table, list, anchor, image, video
+
+
+- BOM(Browser Object Model)
+
+- DOM(Document Object Model)
+    
+
+#Prompt always return string type
